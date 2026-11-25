@@ -50,3 +50,16 @@ Untuk mengganti cepat, timpa `-1280` dan biarkan ukuran lain, atau hapus atribut
 - Banner cookie hanya visual (menyimpan pilihan di cookie `cc_cookie`), tanpa
   tracker.
 - Nomor WhatsApp, nama sales, dan teks diatur di bagian atas `build.py`.
+
+## Dokumen penawaran
+
+`dokumen/SKPL-Landing-Page-XL-Home.docx` — surat permintaan data, gambar, dan
+informasi layanan ke klien, sekaligus rincian biaya. Kop surat memakai
+`kop-pt.docx` (PT. ARBASYA TEKNO NUSANTARA).
+
+Folder `dokumen/` sengaja masuk `.gitignore` karena berisi penawaran harga klien
+— tidak ikut ter-push ke repo publik. File tetap ada di lokal. Regenerate dengan:
+
+```bash
+python3 tools/skpl.py
+```
